@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<script src = "BishBosh.js"></script>
+	 <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+		<body onLoad=Loop() class="detMesta">
+		<header> 
+			<h1> BishBosh 2.0
+			</h1>
+			<p> Detta är två uppgifter i kursen C#.Net.
+			</p>
+		</header>
+
+		<div>
+			<h2> Första övningen </h2>
+			<p> Räknar upp till 100. Om talet är jämt delbart med tre skrivs Bish ut. Om det är jämt delbart med fyra skrivs Bosh ut. Om det är jämt delbart med både tre och fyra skrivs Bish-Bosh ut.
+			</p>
+			<div id="bishbosh"></div>
+			<h2> Andra övningen </h2>
+			<p> Samma som ovan men man anger det högsta talet och de siffror som delbarheten testas med.
+			</p>
+			<p> </p>
+			<p> Ange högsta talet: </p>
+			<form>
+				<input id="inLoop" type="number" name="loop"><br>
+			</form>
+			<p> Ange Bish talet: </p>
+			<form>
+				<input id="inBish" type="number" name="bish"><br>
+			</form>
+				<p> Ange Bosh talet: </p>
+			<form>
+				<input id="inBosh" type="number" name="bosh"><br>
+			</form>
+			<p>   </p>
+			<form>
+				<input type=button onClick=readLoop() value="Enter"><br>
+			</form>
+		</div>
+		<p> </p>
+		<div id="bishbosh2">
+		</div>
+	</body>
+	<footer>
+		<p>  </p>
+		<p>  </p>
+		Copyright tillhör Anna Rönnegård
+	</footer>
+</html>
