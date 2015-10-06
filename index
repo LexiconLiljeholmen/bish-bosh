@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<HEAD>
+<TITLE>Bish-Bosh</TITLE>
+<meta charset="UTF-8">
+<script src="Bish-Bosh.js"></script>
+   <link href="bootstrap.min.css" rel="stylesheet">
+   <link href="styles.css" rel="stylesheet">
+
+  
+
+</HEAD>
+<body onload="BishBosh();">
+
+
+ <div class="container">
+      <div class="header">
+        <h3 class="text-muted">En andra implementation: Bish-Bosh 2.0</h3>
+      </div>
+
+      <div class="jumbotron">
+              <h1>En första implementation</h1>
+  
+<p>Bish-Bosh listar alla tal mellan 1 och 100, men vissa undantag: Om talet är jämnt delbart
+med 3 listas ‘Bish’ istället för talet. Om talet är jämnt delbart med 4 listas ‘ Bosh ’ istället
+för talet. Om talet är jämtdelbart med både med 3 och 4 skrivs “ Bish-Bosh ” istället för
+talet.</p><br>
+
+    <div id="response"></div><br>
+
+
+     <div class="header">
+        <h1>En andra implementation: Bish-Bosh 2.0</h1>
+      </div>
+
+ 
+
+
+    <p>Nu kan du välja själv hur lång listan är vad första divisionstall och andra divisionstall ska va. Samt kan du ändra på namnen på Bish och Bosh. </p>
+    <p>Anlednignen med denna sida är att lära mig formulär anrop.
+    </p><br>
+      
+
+<form id="myForm" action="index.html">
+                <label>Ange antal loopar som ska utföras</label>
+                <input type="number" id="intLopp" value="100" name="intLopp"><br>
+
+                <label>Ange start talet i loopen som ska utföras</label>
+                <input type="number" id="intLoppStart" name="intLoppStart" value="1"><br>
+
+<label>Första divisionstal (det som ska ersättas med Bish)</label>
+<input type="number" id="intBish" name="intBish" placeholder="Bish" value="3"><br>
+<label>Andra divisionstal (det som ska ersättas med Bosh)</label>
+<input type="number" id="intBosh" name="intBosh" placeholder="Bosh" value="4"><br>
+
+<label>Ersättas namnet Bish med nytt</label>
+<input type="text" id="strBish" name="strBish"  value="Bish"><br>
+<label>Ersättas namnet Bosh med nytt</label>
+<input type="text" id="strBosh" name="strBosh" value="Bosh"><br>
+
+
+  <input type="button" onclick="BishBoshSearch()" value="Kör">
+                
+</form>
+<div id="response2"></div><br>
+
+
+
+    <br><br><br>
+    
+      <footer class="footer">
+          <p>Posted by: Niklas Säwensten Contact information: <a href="mailto:nisaw99@hotmail.com">nisaw99@hotmail.com</a>.</p>
+      </footer>
+
+    </div> 
+
+      
+       
+</body>
+</HTML>
