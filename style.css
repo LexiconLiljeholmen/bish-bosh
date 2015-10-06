@@ -1,0 +1,32 @@
+body
+{
+	/* width: 900px; */
+  	text-align:center;
+  	color:black;
+}
+
+header{
+	background-color: black;
+	height: 200px;
+	text-align: ;
+}
+h1{
+	color: white;
+}
+
+#artikel1
+{
+margin: auto;	
+width: 900px;
+}
+
+
+footer
+{
+	color: white;
+	height: 15px;
+	font-size: small;
+	background-color: black;
+	/*width: 900px;
+  	text-align:center;*/
+}
