@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang=sv>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<script type="text/javascript" src="bishboshq.js"></script>
+		<title></title>
+	</head>
+<!--<body onLoad="bishBosh()">-->
+<body>
+	<div class="main" id="main1">		
+		<header class="header1">Bish-Bosh 2.0</header>
+		
+		<article class="text_om">
+			<div class="rub1">Bish-Bosh</div>
+			<div>Bish-Bosh listar alla tal mellan 1 och 100, men vissa undantag: Om talet är jämnt delbart
+med 3 listas "Bish" istället för talet. Om talet är jämnt delbart med 4 listas "Bosh" istället
+för talet. Om talet är jämt delbart med både med 3 och 4 skrivs "Bish-Bosh" istället för
+talet. <br> Sidans syfte är att öva javascript. </div>
+			<div id="testhundra" class="test">
+				<input type="button" value="Visa BishBash!" onClick="bishBoshTest ()">&nbsp;
+				<input type="button" value="Rensa visning!" onClick="rensaVisning()">
+			</div>
+			<div id="testoutput" class="testut"></div>
+
+		</article>
+		
+		<div class="spelet">
+			<div class="rub2" id="rubspel">Spela själv</div>
+			<div>Nu kan du själv välja ett annat maxtal i stället för 100 och vilka tal som ska ge texterna Bish, Bosh respektive Bish-Bosh, dvs alternativ till 3 respektive 4.</div><!--input-->
+			<div class="inputn" id="writeinput">
+				<form id="formnummer">
+					<table class=entabell>
+						<tr>
+							<td>Ange looptal</td><td colspan="2">Ange de båda talen</td><td></td>
+						</tr>
+						<tr>
+							<td><input type="number" value="100" min="1" max="10000" id="looptal"></td>
+							<td><input type="number" value="3" min="1" max="100" id="tal1"></td>
+							<td><input type="number" value="4" min="1" max="100" id="tal2"></td>
+							<td><input type="button" value="BishBosh!" onClick="bishBosh()"></td>
+						</tr>
+					</table>		 				
+					<input type="button" value="Återställ" onClick="reStart()">
+				</form>
+			</div>
+			<!--output-->
+			<div class="outputn" id="shownumbers">			</div>
+		</div>
+
+		<footer class="slutfot">Skapat av &copy;Christina Kronblad</footer>
+	</div>
+
+
+</body>
+</html>
