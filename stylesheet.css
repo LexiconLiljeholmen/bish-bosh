@@ -1,8 +1,9 @@
 header
 {
+	float: top;
 	text-align: center;
 	border-radius: 20px;
-	width: 90%;
+	width: 100%;
 	padding: 3px;
 	background-color: #f1f1c1;
 	top: 25px; 
@@ -11,13 +12,14 @@ header
 h1
 {
 	text-align: center;
-	float:center;
 }
 article
 {
 	width: 90%;
+	height: 75%;
 	border-radius: 25px;
 	border: 3px;
+	text-align:center;
 	background-color:#f1f1c1;
 	box-shadow: 15px 15px 25px #f1f000;
 }
@@ -48,7 +50,7 @@ table {
 	margin-right:150px;
     border-spacing: 5px;
 	width: 50%;
-	height: 50%;
+	height: 150px;
 	float: center;
 	border-radius: 20px;
     background-color: #f1f1c1;
