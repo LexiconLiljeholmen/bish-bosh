@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bish-Bosh</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="bishbosh.js"></script>
+    <meta charset="utf-8" />
+    <meta name="description" content="Bish-Bosh generator" />
+    <meta name="keywords" content="bish-bosh" />
+    <meta name="author" content="Anna Eklund" />
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1>Bish-Bosh 2.0</h1>
+        </header> 
+    </div>
+    <article>
+        <p>
+            <div id="explain">
+                Bish-bosh är ett enkelt javascript som i grundformen ersätter alla tal mellan 1 och 100
+                som är jämt delbara med 3 med ordet "Bish" och alla tal som är jämt delbara med 4 med
+                ordet "Bosh". Är de delbara med både 3 och 4 så ersätts talet med "Bish-Bosh.
+                I den här versionen får du själv välja start och stopp, samt vilka delbara tal som beräkningen
+                ska göras på.
+            </div>
+        </p>
+        
+            <div id="inputValues">
+ 
+                    <label for="start">Start:</label><br />
+                    <input id="start" name="start" type="number" min=1 max=300 value=1 required />
+                    <div class="invalid">Startvärdet måste vara ett tal mellan 1 och 300.</div><br />
+
+                    <label for="stopp">Stopp:</label><br />
+                    <input id="stopp" name="stopp" type="number" min=1 max=300 value=100 required />
+                    <div class="invalid">Stoppvärdet måste vara ett tal som är större eller lika 
+                    med startvärdet, och som ligger i intervallet 1 och 300.</div><br />
+                
+                    <label for="bish">Bish:</label><br />
+                    <input id="bish" name="bish" type="number" min=1 max=300 value=3 required />
+                    <div class="invalid">Bish måste ligga i intervallet mellan 1 och 300.</div><br />
+
+                    <label for="bosh">Bosh:</label><br />
+                    <input id="bosh" name="bosh" type="number" min=1 max=300 value=4 required />
+                    <div class="invalid">Bosh måste ligga i intervallet mellan 1 och 300.</div><br />
+                
+                    <input type="submit" value="Beräkna" onclick="bishbosh()" />
+                
+
+            </div>
+        
+            <div id="bishbosh"> </div>
+            
+    </article>
+    <p></p>
+    <div id="footer">
+        <footer>
+            &copy; Anna Eklund 2015. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
