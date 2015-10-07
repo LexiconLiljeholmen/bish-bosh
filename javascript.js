@@ -137,7 +137,6 @@ function bishBosh(bishIn,boshIn,startIn,endIn)
 	theCounter=0;
 	for (theCounter = endIn; theCounter >= startIn; theCounter--) 
 	{ 
-		console.log(numBishBosh(bishIn,boshIn,theCounter));
 		cellNo = addCell(row,cellNo,numBishBosh(bishIn,boshIn,theCounter));
 		if ((theCounter - startIn + 1) % 6 == 0)
 		{
