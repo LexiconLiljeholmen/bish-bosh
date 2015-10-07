@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset=utf-8 />
@@ -6,13 +6,17 @@
 		<link rel="stylesheet" href="stylesheet.css">
 		<script  type="text/javascript" src="javascript.js"> </script>
 		<script  src="javascript.js"></script> 
+        <title>
+            This is the bish-Bosh validator
+        </title>
 	</head>
-	<header>
+	<body>
+	<article>
+		<header>
 		<h1> Bish-Bosh 2.0 </h1>
 		<h2> Please fill numeric values (integers) that should be tested </h2>
 	</header>
-	<body>
-	<article>
+
 	<p>This is the Bish-Bosh module you will write a starting number and a ending number and two numbers named Bish and Bosh</p>
 	<p>If a number in the sequence limited by Start value - End value are evenly divided by Bish the text Bish will be written</p>
 	<p>The same condition for the Bosh number and if both Bish and Bosh conditions are satisfied the text BishBosh will be written</p>
@@ -22,7 +26,7 @@
 			Bosh value :<input type="number" name="bosh"><br>
 			Start value: <input type="number" name="bishboshStart"><br>
 			End value  :  <input type="number" name="bishboshEnd"><br><br>
-			<input type="static" color="blue" onclick="validateForm()" value="Start the Bish/Bosh!">
+			<input  onclick="validateForm()" value="Start the Bish/Bosh!">
 		</form>
 		<table id="tabulatedBishBosh">
 		</table>
