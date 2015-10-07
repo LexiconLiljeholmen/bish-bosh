@@ -34,14 +34,14 @@ function validateForm()
 				if	 (bishIn > endIn)
 				{
 					throwUpErrorMessage=true;
-					errorMessage = "bish must be less then or equal to end value of interval!";
+					errorMessage = "Bish must be less then or equal to end value of interval!";
 				}										
 				else 
 				{
 					if	 (boshIn > endIn) 
 					{
 					throwUpErrorMessage=true;
-					errorMessage = "bish must be less then or equal to end value of interval!";
+					errorMessage = "Bosh must be less then or equal to end value of interval!";
 					}
 
 			}
