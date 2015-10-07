@@ -10,30 +10,64 @@
     <script src="bishbosh.js"></script>
 
   </head>
-    
-  <body onload="BishBosh()">
 
-	<header>
-    <h1>The Bish-Bosh 2.0 Experience...</h1>
+    
+  <body>
+ 
+  	<header>
+      <h1>The Bish-Bosh 2.0 Experience...</h1>
     </header>
+      
+    <h3 id="test1">Bish-Bosh 1.0</h3>
+    <p id="text1">   		
+    	"Bish-Bosh listar alla tal mellan 1 och 100, men vissa undantag: Om talet är jämnt delbart
+    	med 3 listas ‘Bish’ istället för talet. Om talet är jämnt delbart med 4 listas ‘Bosh’ istället
+    	för talet. Om talet är jämt delbart med både med 3 och 4 skrivs 'Bish-Bosh' istället för
+    	talet. </p><br> 
+    <p id="p2"> Exempel: 1, 2, Bish , Bosh , 5, Bish , 7, Bosh , Bish , 10, 11, Bish-Bosh , 13, 14, Bish..." </p>
+    <br>
+    <h3 id="test1">Bish-Bosh 2.0</h3>
     
-   <h4>Bish-Bosh</h4>
-   	<article id="artikel1">   		
-	Bish-Bosh listar alla tal mellan 1 och 100, men vissa undantag: Om talet är jämnt delbart
-	med 3 listas ‘Bish’ istället för talet. Om talet är jämnt delbart med 4 listas ‘ Bosh ’ istället
-	för talet. Om talet är jämtdelbart med både med 3 och 4 skrivs “ Bish-Bosh ” istället för
-	talet. <br>
-	Exempel:
-	1, 2, Bish , Bosh , 5, Bish , 7, Bosh , Bish , 10, 11, Bish-Bosh , 13, 14, Bish [...]
-	</article>
-	<br>
+    <p id="text2">       
+      I Bish-Bosh 2.0 får du som användare själv möjligheten att välja vilka siffror som ska ersättas av Bish respektive Bosh, samt hur "långt" programmet ska räkna. (Observera dock att du måste välja positiva tal.)
+    </p>
+  	<br>
 
-  	<!-- <div id="div1"> </div> -->
+     <br>
+    <table>
+      <tr>
+        <td align="right">Fyll i siffran som ska ersättas av Bish:</td>
+        <td><input type="number" min="1" id="bish"/ placeholder="3"> </td>
+      </tr>
+      <tr>
+        <td align="right">Fyll i siffran som ska ersättas av Bosh:</td>
+        <td><input type="number" min="1" id="bosh"/ placeholder="4"> </td>
+      </tr>
+      <tr>
+        <td>Fyll i siffran för hur långt programmet ska räkna:</td>
+        <td><input type="number" min="1" id="range" placeholder="100"/> </td>
+      </tr>
+    </table>
+    
+    <br>  
+     
+    <button type="button" value="Button" onclick="BishBosh2()">Kör programmet...</button>
+    
+    <br>
+    <br>
+    <div id="div1" style="display:none;">Här är programmet med dina siffror:<br></div>
+    <div id="div2" style="display:none;"><br></div>
+    <br>
+    <br>
+    
 
-  	<footer>
-    Staffan Ericsson. Copyright...
+    <footer>
+      Staffan Ericsson. Copyright...
 
-	</footer>
+    </footer>
+    
+
+
   </body>  
 
 </html>

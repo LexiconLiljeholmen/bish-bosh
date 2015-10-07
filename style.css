@@ -4,29 +4,48 @@ body
   	text-align:center;
   	color:black;
 }
-
-header{
+header
+{
 	background-color: black;
-	height: 200px;
-	text-align: ;
+	height: 40px;
+	padding: 40px;
 }
+
 h1{
 	color: white;
+	margin-top: auto;
 }
 
-#artikel1
+p
 {
 margin: auto;	
-width: 900px;
+text-align: left;
+width: 40%;
 }
 
+#p2{
+	font-style: italic;
+}
 
+table{
+	margin: auto
+}
 footer
 {
+	
 	color: white;
 	height: 15px;
 	font-size: small;
 	background-color: black;
 	/*width: 900px;
   	text-align:center;*/
+}
+
+#div2{
+	width: 40%;
+	/* font-size: 20px; */
+	border: 2px solid black;
+    padding: 2px;
+    margin: auto;
+    
 }
