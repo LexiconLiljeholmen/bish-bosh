@@ -2,12 +2,13 @@ header
 {
 	float: top;
 	text-align: center;
+	color-text:#AF0100;
 	border-radius: 20px;
 	width: 100%;
 	padding: 3px;
-	background-color: #f1f1c1;
+	background-color: #f1f1c0;
 	top: 25px; 
-	box-shadow: 15px 15px 25px #f1f100;
+	box-shadow: 15px 15px 25px #AF0100;
 }
 h1
 {
@@ -17,17 +18,15 @@ article
 {
 	width: 90%;
 	height: 75%;
-	border-radius: 25px;
-	border: 3px;
 	text-align:center;
 	background-color:#f1f1c1;
-	box-shadow: 15px 15px 25px #f1f000;
 }
 footer
 {
 	width: 90%;
 	text-align: center;
-	border-radius: 25px;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
 	border: 3px;
 	border-color:blue;
 	background-color:#f1f1c1;
@@ -44,6 +43,7 @@ form
 	margin-right:150px;
 }
 table {
+	table-layout: fixed;
 	border: 3px;
 	border-color:black;
 	margin-left:250px;
@@ -53,6 +53,6 @@ table {
 	height: 150px;
 	float: center;
 	border-radius: 20px;
-    background-color: #f1f1c1;
-	box-shadow: 15px 15px 25px#AF0000;
+		
+	box-shadow: 20px 20px 25px #AF0100;
 }
