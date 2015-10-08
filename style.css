@@ -2,17 +2,20 @@ body
 {
 	/* width: 900px; */
   	text-align:center;
-  	color:black;
+  	color:#333;
+  	font-family: 'Open Sans', 'sans-serif';
+  	
 }
 header
 {
-	background-color: black;
+	background-color: #333;
+	font-color: #ddd;
 	height: 40px;
 	padding: 40px;
 }
 
 h1{
-	color: white;
+	color: #ddd;
 	margin-top: auto;
 }
 
@@ -33,10 +36,10 @@ table{
 footer
 {
 	
-	color: white;
-	height: 15px;
+	color: #ddd;
+	height: 20px;
 	font-size: small;
-	background-color: black;
+	background-color: #333;
 	/*width: 900px;
   	text-align:center;*/
 }
@@ -48,6 +51,8 @@ footer
     padding: 2px;
     margin: auto;
   	box-shadow: 5px 5px 10px rgba(0,0,0, 0.5); 
+  	background-color: #E5E4E2;
+  	border-radius: 5px;
 }
 
 #form1{
@@ -55,5 +60,6 @@ footer
 	width: 40%;
 	box-shadow: 5px 5px 10px rgba(0,0,0, 0.5);   
 	padding: 10px;
+
 }
 
