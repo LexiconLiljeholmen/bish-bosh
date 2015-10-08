@@ -26,6 +26,7 @@
     	talet. </p><br> 
     <p id="p2"> Exempel: 1, 2, Bish , Bosh , 5, Bish , 7, Bosh , Bish , 10, 11, Bish-Bosh , 13, 14, Bish..." </p>
     <br>
+    
     <h3 id="test1">Bish-Bosh 2.0</h3>
     
     <p id="text2">       
@@ -34,24 +35,28 @@
   	<br>
 
      <br>
-    <table>
-      <tr>
-        <td align="right">Fyll i siffran som ska ersättas av Bish:</td>
-        <td><input type="number" min="1" id="bish"/ placeholder="3"> </td>
-      </tr>
-      <tr>
-        <td align="right">Fyll i siffran som ska ersättas av Bosh:</td>
-        <td><input type="number" min="1" id="bosh"/ placeholder="4"> </td>
-      </tr>
-      <tr>
-        <td>Fyll i siffran för hur långt programmet ska räkna:</td>
-        <td><input type="number" min="1" id="range" placeholder="100"/> </td>
-      </tr>
-    </table>
+           
+    <form id="form1" action="index.html">
+       <table>
+        <tr>
+          <td align="right"><label>Fyll i siffran som ska ersättas av Bish:</label></td>
+          <td><input type="number" min="1" id="bish"/ placeholder="3"> </td>
+        </tr>
+        <tr>
+          <td align="right"><label>Fyll i siffran som ska ersättas av Bosh:</label></td>
+          <td><input type="number" min="1" id="bosh"/ placeholder="4"></td>
+        </tr>
+        <tr>
+          <td><label>Fyll i siffran för hur långt programmet ska räkna:</label></td>
+          <td><input type="number" min="1" id="range" placeholder="100"/></td>
+        </tr>
+      </table>
+    </form> 
     
     <br>  
      
     <button type="button" value="Button" onclick="BishBosh2()">Kör programmet...</button>
+    </form> 
     
     <br>
     <br>
